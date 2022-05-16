@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask hCaptcha Tutorial</title>
+    </head>
+    <body>
+        <form method="POST"> <!-- Sends POST request to flask server -->
+            {{ hcaptcha | safe}} <!-- Refer to 'hcaptcha' variable in app.py -->
+            <input type="submit" value="Submit">
+        </form>
+        <p>{{ message }}</p> <!-- Message to tell user whether or not they have filled out hCaptcha -->
+    </body>
+</html>

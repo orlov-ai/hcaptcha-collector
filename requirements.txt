@@ -1,0 +1,6 @@
+flask~=2.0.3
+flask_hcaptcha~=0.6.0
+pillow~=8.4.0
+selenium~=3.141.0
+selenium-wire~=4.6.4
+tqdm~=4.64.0
